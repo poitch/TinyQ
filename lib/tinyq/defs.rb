@@ -1,4 +1,4 @@
 module TinyQ
-    #DELIMITER = "\0"
-    DELIMITER = "\n"
+    DELIMITER = "\0"
+    #DELIMITER = "\n"
 end
