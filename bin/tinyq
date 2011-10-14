@@ -1,0 +1,8 @@
+#!/usr/bin/env ruby
+
+$: << File.dirname($0) + "/../lib"
+
+require 'rubygems'
+require 'tinyq.rb'
+
+TinyQ::Server.new.main(ARGV)
